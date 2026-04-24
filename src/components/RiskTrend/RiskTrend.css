@@ -1,0 +1,17 @@
+.risk-trend { padding: 4px 0; }
+
+.rt-controls { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.rt-label    { font-size: 0.75rem; color: var(--text-muted); }
+.rt-select   {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border-mid);
+    background: var(--surface-2);
+    color: var(--text);
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.rt-canvas  { width: 100%; border-radius: var(--radius-sm); background: white; }
+.rt-loading { color: var(--text-dim); font-size: 0.8rem; }
+.rt-empty   { color: var(--text-dim); font-size: 0.8rem; }

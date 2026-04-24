@@ -1,0 +1,49 @@
+.clinical-benchmark {
+    background: #f7f9fb;
+    border: 1px solid #e0e8f0;
+    border-radius: var(--radius-md);
+    padding: 12px 14px;
+    margin-top: 8px;
+}
+
+.bench-title {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #6b7a8d;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+}
+
+.bench-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.bench-left    { display: flex; flex-direction: column; gap: 2px; }
+.bench-label   { font-size: 0.78rem; color: #445060; font-weight: 500; }
+.bench-source  { font-size: 0.65rem; color: #6b7a8d; }
+.bench-caveat  { font-size: 0.62rem; color: #6b7a8d; font-style: italic; }
+
+.bench-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.bench--low      { background: var(--low-bg);  color: var(--low);  border: 1px solid var(--low-border); }
+.bench--moderate { background: var(--mid-bg);  color: var(--mid);  border: 1px solid var(--mid-border); }
+.bench--high     { background: var(--high-bg); color: var(--high); border: 1px solid var(--high-border); }
+
+.bench-desc {
+    font-size: 0.72rem;
+    color: #6b7a8d;
+    line-height: 1.4;
+    margin-top: 4px;
+}

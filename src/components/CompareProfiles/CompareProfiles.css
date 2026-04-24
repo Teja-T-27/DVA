@@ -1,0 +1,36 @@
+.compare-empty { color: var(--text-dim); font-size: 0.8rem; padding: 12px 0; }
+.compare-hint  { color: var(--text-dim); font-size: 0.75rem; margin: 8px 0 16px; }
+
+.compare-actions { display: flex; gap: 10px; margin-bottom: 12px; }
+
+.compare-btn {
+    padding: 7px 14px;
+    border-radius: var(--radius-sm);
+    border: none;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+.compare-btn--save  { background: var(--accent); color: white; }
+.compare-btn--save:hover  { opacity: 0.85; }
+.compare-btn--clear { background: var(--surface-3); color: var(--text-muted); }
+.compare-btn--clear:hover { background: var(--surface-4); }
+
+.compare-grid {
+    display: grid;
+    grid-template-columns: 140px 1fr 1fr 80px;
+    gap: 6px 12px;
+    align-items: center;
+}
+
+.compare-col-header { font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+.compare-label { font-size: 0.78rem; color: var(--text-muted); }
+.compare-val   { font-size: 0.85rem; font-weight: 600; }
+.compare-val--low      { color: var(--low); }
+.compare-val--moderate { color: var(--mid); }
+.compare-val--high     { color: var(--high); }
+
+.compare-diff { font-size: 0.8rem; font-weight: 600; text-align: right; }
+.compare-diff--better { color: var(--low); }
+.compare-diff--worse  { color: var(--high); }
+.compare-diff--same   { color: var(--text-dim); }
